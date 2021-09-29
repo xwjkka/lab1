@@ -1,0 +1,264 @@
+.r {
+	position: absolute;
+	width: 267px;
+	height: 20px;
+	left: calc(50% - 267px/2 - 56.5px);
+	top: calc(30% - 56px/2 + 15px);
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.reclama {
+	position: absolute;
+	height: 45px;
+	left: 0%;
+	right: 0%;
+	top: 0px;
+	background: #CED3CA;
+	border-radius: 0px;
+}
+
+.rectan {
+	position: absolute;
+	height: 28px;
+	width: 113px;
+	right: 0%;
+	left: calc(50% - 113px/2 + 149.5px);
+	top: calc(50% - 28px/2 + 0.5px);
+	background: #1A1A1A;
+	border: 1px solid #1A1A1A;
+	box-sizing: border-box;
+	border-radius: 0px;
+}
+
+.text_knop {
+	position: absolute;
+	width: 87px;
+	height: 56px;
+	left: calc(50% - 87px/2);
+	top: calc(5% - 56px/2 + 15px);
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 28px;
+	text-align: center;
+	color: #F7F7F7;
+}
+
+.logo {
+	position: absolute;
+	width: 265px;
+	height: 41px;
+	left: calc(50% - 265px/2 - 512.5px);
+	top: 32px;
+	background: #FFFFFF;
+}
+
+.s1 {
+	position: absolute;
+	height: 54px;
+	left: 21.55%;
+	right: 50%;
+	top: 32px;
+}
+
+.a1 {
+	position: absolute;
+	height: 21px;
+	left: 4.85%;
+	right: 85.15%;
+	top: 14.5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height, or 127% */
+
+
+	color: #292929;
+}
+
+.a2 {
+	position: absolute;
+	height: 21px;
+	left: 24.55%;
+	right: 58.48%;
+	top: 14.5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height, or 127% */
+
+
+	color: #292929;
+}
+
+.a3 {
+	position: absolute;
+	height: 21px;
+	left: 51.21%;
+	right: 30.3%;
+	top: 14.5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+	/* identical to box height, or 120% */
+
+
+	color: #292929;
+}
+
+.a4 {
+	position: absolute;
+	height: 21px;
+	left: 79.39%;
+	right: 4.85%;
+	top: 14.5px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height, or 127% */
+	
+	
+	color: #292929;
+}
+
+li {
+	list-style-type: none;
+}
+
+.s2 {
+	position: absolute;
+	height: 28px;
+	left: 78.19%;
+	right: 0%;
+	top: calc(50% - 28px/2);
+}
+
+.aa1 {
+	position: absolute;
+	height: 20px;
+	left: 0%;
+	right: 72.33%;
+	top: 4.5px;
+
+}
+
+.aa2 {
+	position: absolute;
+	height: 20px;
+	left: 40.08%;
+	right: 30%;
+	top: 4.5px;
+}
+
+.aa3 {
+	position: absolute;
+	height: 20px;
+	left: 60.08%;
+	right: 17%;
+	top: 4.5px;
+}
+
+.aa4 {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: calc(50% - 18px/2 + 105.5px);
+	top: 6.5px;
+}
+
+.imageContainer {
+	position: absolute;
+	background-image: url(fon.png);
+	height: 600px;
+	left: 0%;
+	right: 0%;
+	top: 160px;
+}
+
+.xz {
+	height: 102px;
+	left: 0%;
+	right: 0%;
+	top: 0px;
+}
+
+.menu {
+	position: absolute;
+	height: 115px;
+	left: 0%;
+	right: 0%;
+	top: 45px;
+
+	background: #FFFFFF;
+	border-radius: 0px;
+}
+
+.tnc {
+	position: absolute;
+	height: 52px;
+	left: 9.72%;
+	right: 9.72%;
+	top: 518px;
+}
+.na_cart1 {
+	position: absolute;
+	height: 29px;
+	left: 0%;
+	right: 70%;
+	top: -1px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	/* identical to box height, or 158% */
+	
+	
+	color: #FFFFFF;
+}
+
+.na_cart2 {
+	position: absolute;
+	height: 45px;
+	left: 0%;
+	right: 0%;
+	top: 25px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* or 150% */
+
+
+	color: #FFFFFF;
+}
+.catalog {
+	position: absolute;
+height: 2570px;
+left: 0%;
+right: 0%;
+top: 760px;
+}
