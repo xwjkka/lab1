@@ -1,0 +1,142 @@
+.header__burger {
+    display: none;
+}
+
+// .header {
+//     position: fixed;
+//     width:100%;
+//     top: 0;
+//     left: 0;
+//     z-index: 50;
+// }
+// .header::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left:0;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 2;
+// }
+
+// .header__body {
+//     position: relative;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     height: 80px;
+// }
+
+@media (max-width: 1000px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .logo {
+        max-width: 87px;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+        margin-left: 16px;
+    }
+    .header__burger span {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger::before,
+    .header__burger::after {
+        content:'';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger::before {
+        top: 0;
+    }
+
+    .header__burger::after {
+        bottom: 0;
+    }
+    .header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+    .header__nav {
+        padding: 100px 20px 20px 10px;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 35%;
+        background-color: $light-orange;
+        top: -100%;
+        transition: all 0.5s ease 0s;
+        overflow: auto;
+    }
+
+    .header__nav.active {
+        top: 0;
+    }
+
+
+    .header__nav {
+        display: block;
+    }
+
+    .header__nav li {
+        margin-bottom: 20px;
+    }
+
+    body.lock {
+        overflow: hidden;
+    }
+
+    .nav__item {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contacts__item:first-child {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contacts__item:first-child {
+        display:flex;
+    }
+
+    .contacts__text {
+        display: none;
+    }
+
+    .contacts__link {
+        display: none;
+    }
+}

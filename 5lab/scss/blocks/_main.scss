@@ -1,0 +1,78 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../utils/fonts";
+
+
+
+.header {
+    @include wrapper;
+    @include Montserrat-family;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    position: relative;
+    z-index: 2;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nav__item {
+    // margin-right: 40px;
+
+    &:first-child {
+        text-decoration: underline;
+    }
+}
+
+.header__contacts {
+    padding: 30px 36px;
+    background-color: $blue;
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    color: white;
+    align-items: center;
+    border-radius: 0px 0px 0px 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contacts__item {
+    display: flex;
+    justify-content: space-between; //не работает
+    align-items: center;
+}
+
+.contacts__img {
+    margin-right: 10px;
+}
+
+// .contacts__text {
+//     margin-right: 20px;
+// }
+
+.contacts__link {
+    padding: 15px 30px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
